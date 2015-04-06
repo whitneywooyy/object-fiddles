@@ -92,10 +92,23 @@ console.log(backPack);
 
   //Code Here
 
+  var me = {
+    name: "Whitney",
+    age: 25,
+    height: "5 ft 4 in",
+    gender: "Female",
+    married: "Married",
+    eyeColor: "Brown",
+    hairColor: "Dark Brown"
+  };
+
 //Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
 
   //Code Here
 
+for (var key in me) {
+  alert(me[key]);
+}
 
 
 
