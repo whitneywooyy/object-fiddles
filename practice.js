@@ -147,11 +147,22 @@ for (var key in album) {
 
   //Code Here
 
+  var states = {
+    utah: 1000000,
+    newYork: 3000000,
+    hawaii: 500000,
+    california: 3000000,
+    wyoming: 29000
+  };
+
 //Now, loop through your states object and if the states population is greater than 30K, alert that state.
 
   //Code Here
 
-
+for (var key in states) {
+  if (states[key] > 30000)
+    alert(key);
+}
 
 
 //NEXT PROBLEM
