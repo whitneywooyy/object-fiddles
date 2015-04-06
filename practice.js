@@ -21,17 +21,30 @@ alert(me.name);
 
   //Code here
 
+  var favoriteThings = {
+    band: "Paramore",
+    food: "Indian",
+    person: "Kyle",
+    book: "Nat Geo Traveler",
+    movie: "Mean Girls",
+    holiday: "Halloween" 
+  };
+
 
 //After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 
   //Code here
+
+  favoriteThings.car = "Corolla";
+  favoriteThings.brand = "Express";
 
 
 //Now change the food key in your favoriteThings object to be 'Lettuce' and change the book key in your favoriteThings object to be '50 Shades of Gray'.
 
   //Code here
 
-
+  favoriteThings.food = "Lettuce";
+  favoriteThings.book = "50 Shades of Gray";
 
 
 //NEXT PROBLEM
