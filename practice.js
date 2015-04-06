@@ -5,7 +5,11 @@
 
   //Code here
 
-
+var me = {
+  name: "Whitney",
+  age: 25
+};
+alert(me.name);
 
 
 //NEXT PROBLEM
